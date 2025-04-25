@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{31d80179-7c9c-43c1-9ae0-258f4d106946}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{3d45efeb-dc43-4580-a576-89acb621c248}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{eb145352-5bd2-438a-a7ed-203a6d4abfe3}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="astrolog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="swecl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="swedate.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="swehel.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="swehouse.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="swejpl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="swemmoon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="swemplan.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sweph.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="swephlib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="xmlParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="General\CharStrings.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="atlas.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="General\CharStrings.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resources_en.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="swedate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="swedll.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="swehouse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="swejpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="swemptab.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="swenut2000a.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sweodef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="swepcalc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sweph.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SWEPHEXP.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="swephlib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="xmlParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="newChart.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resources_en.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="config.dat" />
+  </ItemGroup>
+</Project>

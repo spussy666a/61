@@ -1,0 +1,12 @@
+-z0 0             ; Default Daylight time setting   [0 standard, 1 daylight]
+-z -8:00:00          ; Default time zone               [hours before GMT      ]
+-zl 116:28E 39:55N  ; Default longitude and latitude
+-zn "London, UK"  ; Default location name
+;Altitude=33.00
+;European settings expected:
+
+-Yd		; Display dates in D/M/Y instead of M/D/Y format.
+-Yt		; Display times in 24 hour instead of am/pm format. 
+
+
+;END - DO NOT REMOVE THIS LINE OR ADD ANYTHING BELLOW
